@@ -10,6 +10,10 @@
             "email": "bazillio07@yandex.ru"
         }
     ],
+    "support": {
+        "issues": "https://github.com/vova07/yii2-rbac-module/issues?state=open",
+        "source": "https://github.com/vova07/yii2-rbac-module"
+    },
     "require": {
         "yiisoft/yii2": "*"
     },
