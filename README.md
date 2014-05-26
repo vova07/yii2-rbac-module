@@ -1,4 +1,4 @@
-Yii2 users module.
+Yii2 RBAC module.
 ==================
 This module provide an RBAC managing system for your yii2 application.
 
