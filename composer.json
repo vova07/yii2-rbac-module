@@ -2,7 +2,7 @@
     "name": "vova07/yii2-rbac-module",
     "description": "The RBAC module for Yii framework.",
     "type": "yii2-extension",
-    "keywords": ["yii2", "rbac", "module"],
+    "keywords": ["yii2", "yii 2", "rbac", "module", "modules", "management"],
     "license": "BSD-3-Clause",
     "authors": [
         {
