@@ -34,7 +34,9 @@ Edit `authManager` component in your application config file:
         'admin',
         'superadmin'
     ],
-    'authFile' => '@vova07/rbac/data/rbac.php'
+    'itemFile' => '@vova07/rbac/data/items.php',
+    'assignmentFile' => '@vova07/rbac/data/assignments.php',
+    'ruleFile' => '@vova07/rbac/data/rules.php',
 ]
 ```
 
@@ -54,4 +56,6 @@ Info
 
 By default `RBAC` module provide 3 defaults roles: `user`, `admin` and `superadmin`.
 
-You can add more roles by creating your own `rbac.php` file.
+You can add more roles by creating your own `rules.php` file.
+
+If you want to regenerate the `rbac` files, you can change the `itemFile`, `assignmentFile` and `ruleFile` in your config `authManager` section and run `php yii cron/cron/init`.
